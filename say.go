@@ -5,5 +5,5 @@ import (
 )
 
 func SayHi(name string) {
-	return fmt.Println("Hi, %s", name)
+	return fmt.Sprintln("Hi, %s", name)
 }
